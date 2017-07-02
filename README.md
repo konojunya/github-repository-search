@@ -6,3 +6,9 @@ github repository search app
 ```bash
 $ make
 ```
+
+# install carthage on Mac
+
+```bash
+$ make install
+```
