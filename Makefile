@@ -1,2 +1,2 @@
 - build:
-		carthage update --platform iOS
+	carthage update --platform iOS
