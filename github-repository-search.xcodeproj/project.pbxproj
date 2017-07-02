@@ -12,20 +12,47 @@
 		9A907D431F091F6E00C1A103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A907D411F091F6E00C1A103 /* Main.storyboard */; };
 		9A907D451F091F6E00C1A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A907D441F091F6E00C1A103 /* Assets.xcassets */; };
 		9A907D481F091F6E00C1A103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A907D461F091F6E00C1A103 /* LaunchScreen.storyboard */; };
-		9A907D591F092B4400C1A103 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D501F092B4400C1A103 /* Alamofire.framework */; };
-		9A907D5A1F092B4400C1A103 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D511F092B4400C1A103 /* AlamofireImage.framework */; };
-		9A907D5B1F092B4400C1A103 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D521F092B4400C1A103 /* APIKit.framework */; };
-		9A907D5C1F092B4400C1A103 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D531F092B4400C1A103 /* ObjectMapper.framework */; };
-		9A907D5D1F092B4400C1A103 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D541F092B4400C1A103 /* Result.framework */; };
-		9A907D5E1F092B4400C1A103 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D551F092B4400C1A103 /* RxBlocking.framework */; };
-		9A907D5F1F092B4400C1A103 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D561F092B4400C1A103 /* RxCocoa.framework */; };
-		9A907D601F092B4400C1A103 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D571F092B4400C1A103 /* RxSwift.framework */; };
-		9A907D611F092B4400C1A103 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D581F092B4400C1A103 /* RxTest.framework */; };
 		9A907D641F094D4900C1A103 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A907D631F094D4900C1A103 /* GithubAPI.swift */; };
 		9A907D661F094D5D00C1A103 /* GithubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A907D651F094D5D00C1A103 /* GithubRepository.swift */; };
 		9A907D681F094D7000C1A103 /* GithubRepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A907D671F094D7000C1A103 /* GithubRepositoryTableViewCell.swift */; };
 		9A907D6A1F094D7F00C1A103 /* Session+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A907D691F094D7F00C1A103 /* Session+Extension.swift */; };
+		9A907D6C1F095B9800C1A103 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D501F092B4400C1A103 /* Alamofire.framework */; };
+		9A907D6D1F095B9800C1A103 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D511F092B4400C1A103 /* AlamofireImage.framework */; };
+		9A907D6E1F095B9800C1A103 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D521F092B4400C1A103 /* APIKit.framework */; };
+		9A907D6F1F095B9800C1A103 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D531F092B4400C1A103 /* ObjectMapper.framework */; };
+		9A907D701F095B9800C1A103 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D541F092B4400C1A103 /* Result.framework */; };
+		9A907D711F095B9800C1A103 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D551F092B4400C1A103 /* RxBlocking.framework */; };
+		9A907D721F095B9800C1A103 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D561F092B4400C1A103 /* RxCocoa.framework */; };
+		9A907D731F095B9800C1A103 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D571F092B4400C1A103 /* RxSwift.framework */; };
+		9A907D761F095CBD00C1A103 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A907D501F092B4400C1A103 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A907D771F095CBD00C1A103 /* AlamofireImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A907D511F092B4400C1A103 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A907D781F095CBD00C1A103 /* APIKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A907D521F092B4400C1A103 /* APIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A907D791F095CBD00C1A103 /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A907D531F092B4400C1A103 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A907D7A1F095CBD00C1A103 /* Result.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A907D541F092B4400C1A103 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A907D7B1F095CBD00C1A103 /* RxBlocking.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A907D551F092B4400C1A103 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A907D7C1F095CBD00C1A103 /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A907D561F092B4400C1A103 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9A907D7D1F095CBD00C1A103 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A907D571F092B4400C1A103 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A907D751F095C9200C1A103 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9A907D761F095CBD00C1A103 /* Alamofire.framework in CopyFiles */,
+				9A907D771F095CBD00C1A103 /* AlamofireImage.framework in CopyFiles */,
+				9A907D781F095CBD00C1A103 /* APIKit.framework in CopyFiles */,
+				9A907D791F095CBD00C1A103 /* ObjectMapper.framework in CopyFiles */,
+				9A907D7A1F095CBD00C1A103 /* Result.framework in CopyFiles */,
+				9A907D7B1F095CBD00C1A103 /* RxBlocking.framework in CopyFiles */,
+				9A907D7C1F095CBD00C1A103 /* RxCocoa.framework in CopyFiles */,
+				9A907D7D1F095CBD00C1A103 /* RxSwift.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9A907D3A1F091F6D00C1A103 /* github-repository-search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "github-repository-search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,15 +82,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A907D591F092B4400C1A103 /* Alamofire.framework in Frameworks */,
-				9A907D5A1F092B4400C1A103 /* AlamofireImage.framework in Frameworks */,
-				9A907D5B1F092B4400C1A103 /* APIKit.framework in Frameworks */,
-				9A907D5C1F092B4400C1A103 /* ObjectMapper.framework in Frameworks */,
-				9A907D5D1F092B4400C1A103 /* Result.framework in Frameworks */,
-				9A907D5E1F092B4400C1A103 /* RxBlocking.framework in Frameworks */,
-				9A907D5F1F092B4400C1A103 /* RxCocoa.framework in Frameworks */,
-				9A907D601F092B4400C1A103 /* RxSwift.framework in Frameworks */,
-				9A907D611F092B4400C1A103 /* RxTest.framework in Frameworks */,
+				9A907D6C1F095B9800C1A103 /* Alamofire.framework in Frameworks */,
+				9A907D6D1F095B9800C1A103 /* AlamofireImage.framework in Frameworks */,
+				9A907D6E1F095B9800C1A103 /* APIKit.framework in Frameworks */,
+				9A907D6F1F095B9800C1A103 /* ObjectMapper.framework in Frameworks */,
+				9A907D701F095B9800C1A103 /* Result.framework in Frameworks */,
+				9A907D711F095B9800C1A103 /* RxBlocking.framework in Frameworks */,
+				9A907D721F095B9800C1A103 /* RxCocoa.framework in Frameworks */,
+				9A907D731F095B9800C1A103 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +157,7 @@
 				9A907D371F091F6D00C1A103 /* Frameworks */,
 				9A907D381F091F6D00C1A103 /* Resources */,
 				9A907D621F092B4B00C1A103 /* ShellScript */,
+				9A907D751F095C9200C1A103 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -204,7 +231,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
 			);
 			outputPaths = (
 			);
@@ -353,7 +379,8 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "github-repository-search/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks/";
 				PRODUCT_BUNDLE_IDENTIFIER = "konojunya.github-repository-search";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -370,7 +397,8 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "github-repository-search/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks/";
 				PRODUCT_BUNDLE_IDENTIFIER = "konojunya.github-repository-search";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
