@@ -12,6 +12,15 @@
 		9A907D431F091F6E00C1A103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A907D411F091F6E00C1A103 /* Main.storyboard */; };
 		9A907D451F091F6E00C1A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A907D441F091F6E00C1A103 /* Assets.xcassets */; };
 		9A907D481F091F6E00C1A103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A907D461F091F6E00C1A103 /* LaunchScreen.storyboard */; };
+		9A907D591F092B4400C1A103 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D501F092B4400C1A103 /* Alamofire.framework */; };
+		9A907D5A1F092B4400C1A103 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D511F092B4400C1A103 /* AlamofireImage.framework */; };
+		9A907D5B1F092B4400C1A103 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D521F092B4400C1A103 /* APIKit.framework */; };
+		9A907D5C1F092B4400C1A103 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D531F092B4400C1A103 /* ObjectMapper.framework */; };
+		9A907D5D1F092B4400C1A103 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D541F092B4400C1A103 /* Result.framework */; };
+		9A907D5E1F092B4400C1A103 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D551F092B4400C1A103 /* RxBlocking.framework */; };
+		9A907D5F1F092B4400C1A103 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D561F092B4400C1A103 /* RxCocoa.framework */; };
+		9A907D601F092B4400C1A103 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D571F092B4400C1A103 /* RxSwift.framework */; };
+		9A907D611F092B4400C1A103 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A907D581F092B4400C1A103 /* RxTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		9A907D441F091F6E00C1A103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A907D471F091F6E00C1A103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A907D491F091F6E00C1A103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A907D501F092B4400C1A103 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		9A907D511F092B4400C1A103 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		9A907D521F092B4400C1A103 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		9A907D531F092B4400C1A103 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		9A907D541F092B4400C1A103 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		9A907D551F092B4400C1A103 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		9A907D561F092B4400C1A103 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		9A907D571F092B4400C1A103 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		9A907D581F092B4400C1A103 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A907D591F092B4400C1A103 /* Alamofire.framework in Frameworks */,
+				9A907D5A1F092B4400C1A103 /* AlamofireImage.framework in Frameworks */,
+				9A907D5B1F092B4400C1A103 /* APIKit.framework in Frameworks */,
+				9A907D5C1F092B4400C1A103 /* ObjectMapper.framework in Frameworks */,
+				9A907D5D1F092B4400C1A103 /* Result.framework in Frameworks */,
+				9A907D5E1F092B4400C1A103 /* RxBlocking.framework in Frameworks */,
+				9A907D5F1F092B4400C1A103 /* RxCocoa.framework in Frameworks */,
+				9A907D601F092B4400C1A103 /* RxSwift.framework in Frameworks */,
+				9A907D611F092B4400C1A103 /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +67,7 @@
 			children = (
 				9A907D3C1F091F6D00C1A103 /* github-repository-search */,
 				9A907D3B1F091F6D00C1A103 /* Products */,
+				9A907D4F1F092B4300C1A103 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +92,22 @@
 			path = "github-repository-search";
 			sourceTree = "<group>";
 		};
+		9A907D4F1F092B4300C1A103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A907D501F092B4400C1A103 /* Alamofire.framework */,
+				9A907D511F092B4400C1A103 /* AlamofireImage.framework */,
+				9A907D521F092B4400C1A103 /* APIKit.framework */,
+				9A907D531F092B4400C1A103 /* ObjectMapper.framework */,
+				9A907D541F092B4400C1A103 /* Result.framework */,
+				9A907D551F092B4400C1A103 /* RxBlocking.framework */,
+				9A907D561F092B4400C1A103 /* RxCocoa.framework */,
+				9A907D571F092B4400C1A103 /* RxSwift.framework */,
+				9A907D581F092B4400C1A103 /* RxTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +118,7 @@
 				9A907D361F091F6D00C1A103 /* Sources */,
 				9A907D371F091F6D00C1A103 /* Frameworks */,
 				9A907D381F091F6D00C1A103 /* Resources */,
+				9A907D621F092B4B00C1A103 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -131,6 +176,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A907D621F092B4B00C1A103 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A907D361F091F6D00C1A103 /* Sources */ = {
@@ -262,6 +332,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RH75B2UCHQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "github-repository-search/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "konojunya.github-repository-search";
@@ -275,6 +349,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RH75B2UCHQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "github-repository-search/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "konojunya.github-repository-search";
