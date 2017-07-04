@@ -14,3 +14,5 @@ $ make install
 ```
 
 # screen shot
+
+![](https://raw.githubusercontent.com/konojunya/github-repository-search/master/screenshots/screen.gif)
