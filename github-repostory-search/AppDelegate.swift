@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  github-repository-search
+//  github-repostory-search
 //
-//  Created by konojunya on 2017/07/02.
+//  Created by konojunya on 2017/07/04.
 //  Copyright © 2017年 konojunya. All rights reserved.
 //
 

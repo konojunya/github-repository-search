@@ -4,7 +4,7 @@ github repository search app
 # build
 
 ```bash
-$ make
+$ make build
 ```
 
 # install carthage on Mac

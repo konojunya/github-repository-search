@@ -1,5 +1,5 @@
 - build:
-		carthage update --platform iOS --no-use-binaries
+	carthage update --platform iOS --no-use-binaries
 
 - install:
-		brew install carthage
+	brew install carthage
